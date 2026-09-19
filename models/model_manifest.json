@@ -1,0 +1,33 @@
+{
+  "model_name": "WorkWise Random Forest Candidate Scorer",
+  "model_version": "v1.0.0",
+  "trained_at": "2026-09-19T06:34:22.385964",
+  "algorithm": "RandomForestClassifier",
+  "hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 8,
+    "min_samples_split": 4,
+    "random_state": 42
+  },
+  "features": [
+    "skill_match_ratio",
+    "skill_level_surplus",
+    "workload_ratio",
+    "capacity_headroom",
+    "location_match",
+    "historical_success_rate",
+    "estimated_hours",
+    "priority_num"
+  ],
+  "target": "suitability_class",
+  "evaluation_metrics": {
+    "accuracy": 0.9333,
+    "precision": 0.9313,
+    "recall": 1.0,
+    "f1_score": 0.9644,
+    "roc_auc": 0.9933
+  },
+  "output_interpretation": "Probability of successful allocation (0.0 to 1.0)",
+  "train_samples": 1200,
+  "test_samples": 300
+}

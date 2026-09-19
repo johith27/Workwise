@@ -1,0 +1,12 @@
+{
+  "model_name": "WorkWise Assistant Custom NLP & Entity Model",
+  "dataset_samples": 6,
+  "dataset_path": "C:\\Users\\lsind\\.gemini\\antigravity\\scratch\\workwise_app\\training\\assistant_dataset.json",
+  "intents": [
+    "create_employee",
+    "view_profile",
+    "list_employees",
+    "latest_completion"
+  ],
+  "status": "Trained & Active"
+}

@@ -1,0 +1,3 @@
+title,description,required_skills,location,estimated_hours,priority,urgency,deadline,sla_hours
+Build Auth API,Implement JWT endpoint,"Python:3,FastAPI:3",New York,10,High,High,2026-10-01T17:00:00,24
+Design UI Components,Create React dashboard buttons,"React:3,CSS:2",London,8,Medium,Medium,2026-10-05T17:00:00,48

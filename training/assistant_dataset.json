@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Add employee Sarah Connor, email sarah@skynet.com, skills Python:5, Machine Learning:4, location San Francisco, 40 hours",
+    "intent": "create_employee",
+    "entities": {
+      "name": "Sarah Connor",
+      "email": "sarah@skynet.com",
+      "skills": "Python:5,Machine Learning:4",
+      "location": "San Francisco",
+      "working_hours_per_week": 40
+    }
+  },
+  {
+    "text": "Create worker John Wick, email john@wick.com, skills Combat:5, SQL:3, location New York",
+    "intent": "create_employee",
+    "entities": {
+      "name": "John Wick",
+      "email": "john@wick.com",
+      "skills": "Combat:5,SQL:3",
+      "location": "New York",
+      "working_hours_per_week": 40
+    }
+  },
+  {
+    "text": "Register new engineer Elena Rostova, elena@example.com, React:4, FastAPI:4, Remote, 35h",
+    "intent": "create_employee",
+    "entities": {
+      "name": "Elena Rostova",
+      "email": "elena@example.com",
+      "skills": "React:4,FastAPI:4",
+      "location": "Remote",
+      "working_hours_per_week": 35
+    }
+  },
+  {
+    "text": "Show profile for employee #1",
+    "intent": "view_profile",
+    "entities": {
+      "employee_id": 1
+    }
+  },
+  {
+    "text": "Show available employees",
+    "intent": "list_employees",
+    "entities": {}
+  },
+  {
+    "text": "Who completed the latest task",
+    "intent": "latest_completion",
+    "entities": {}
+  }
+]

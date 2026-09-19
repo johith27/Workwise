@@ -1,0 +1,2 @@
+event_type,task_id,employee_id,timestamp,reason
+assignment_created,1,1,2026-09-18T10:00:00,Initial manual assignment

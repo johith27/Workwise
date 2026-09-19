@@ -1,0 +1,50 @@
+# WorkWise AI .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.pyc
+
+# Data & DB (don't commit SQLite DB to git)
+data/workwise.db
+data/history/*.xlsx
+data/
+test_tmp.db
+
+# Models (large binary files — Railway will train on startup if missing)
+models/*.pkl
+
+# Reports
+reports/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+
+# Environment files (NEVER commit API keys)
+.env
+.env.local
+.env.production
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
